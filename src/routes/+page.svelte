@@ -1,11 +1,11 @@
 <script lang="ts">
-  import useCounter from '$lib/stores/counter.svelte';
   import Button from '$lib/components/button.svelte';
+  import useCounter from './counter.svelte';
 
   let counter = useCounter();
 </script>
 
-<div class="flex gap-4">
-  <Button onclick={() => counter.count++}>{counter.count}</Button>
-  <Button disabled>{counter.double}</Button>
+<div class="flex flex-col items-center gap-4">
+  <Button onclick={() => counter.count++}>Count: {counter.count}</Button>
+  <Button disabled>Double: {counter.double}</Button>
 </div>
