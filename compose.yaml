@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   sveltekit-2-playground:
-    images: methapon2001dev/dev:sk2pg
-    port:
+    image: methapon2001dev/dev:sk2pg
+    ports:
       - 3000:3000
