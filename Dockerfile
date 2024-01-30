@@ -14,6 +14,6 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 RUN pnpm run build
 
 FROM base as prod
-COPY --from=build /app/build .
+COPY --from=build /app/build /app/build
 
-CMD ["node", "./index.js"]
+CMD ["node", "./build/index.js"]
