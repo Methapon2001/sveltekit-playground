@@ -1,7 +1,7 @@
-export default function useCounter() {
-  let count = $state(0);
-  let double = $derived(count * 2);
+let count = $state(0);
+let double = $derived(count * 2);
 
+export default function useCounter() {
   return {
     get count() {
       return count;

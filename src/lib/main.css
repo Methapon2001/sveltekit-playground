@@ -22,8 +22,3 @@ textarea {
   margin: 0;
   padding: 0;
 }
-
-.test {
-  border: black solid 3px !important;
-  border-width: 3px !important;
-}

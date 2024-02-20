@@ -4,7 +4,7 @@
 
   import 'uno.css';
 
-  import '$lib/styles/app.css';
+  import '$lib/main.css';
 
   const { children, data } = $props();
 
