@@ -12,13 +12,13 @@ input,
 optgroup,
 select,
 textarea {
+  color: inherit;
+  line-height: inherit;
   font-family: inherit;
   font-feature-settings: inherit;
   font-variation-settings: inherit;
-  font-size: 100%;
   font-weight: inherit;
-  line-height: inherit;
-  color: inherit;
+  font-size: 100%;
   margin: 0;
   padding: 0;
 }
