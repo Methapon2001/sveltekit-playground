@@ -37,4 +37,3 @@ jobs:
             cd ~/sveltekit-playground
             docker compose pull
             docker compose up -d
-
