@@ -6,9 +6,7 @@
 
   import '$lib/main.css';
 
-  const { children, data } = $props();
-
-  $inspect(data);
+  const { children } = $props();
 </script>
 
 <article class=":uno: font-sans p-4">
